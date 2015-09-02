@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 人头边框色 -->
+    <color name="pic_border">#07A3C7</color>
+    <color name="white">#fff</color>
+    <color name="pic_background">#116B84</color>
+
+    <color name="welcome_btn_login">#07A3C7</color>
+    <color name="welcome_btn_register">#07A3C7</color>
+
+    
+    <!--new -->
+    <color name="grey_course_cut_line">#a3a3a3</color>
+
+    <color name="btn_class_background">#e8e8e8</color>
+
+    <color name="badge_sign_count_background_color">#5b8ee9</color>
+
+    <color name="table_text_color_grey">#5c5c5c</color>
+
+    <color name="quiz_btn_share">#5b8ee9</color>
+    <color name="quiz_btn_bind">#32ff42</color>
+    <color name="fab_ripple_color">#20a0dd</color>
+
+    <color name="def_tool_bar_bg_dark">#5d5d5d</color>
+    <color name="def_tool_bar_bg_light">#10B8DD</color>
+
+    <color name="def_small_text_color_dark">#e2e2e2</color>
+    <color name="def_small_text_color_light">#5c5c5c</color>
+    <color name="def_text_color_dark">#ffffff</color>
+    <color name="def_text_color_light">#000000</color>
+
+    <color name="def_cv_bg_color_dark">#5c5c5c</color>
+    <color name="def_cv_bg_color_light">#fdfdfd</color>
+    <color name="def_rv_bg_color_dark">#171717</color>
+    <color name="def_rv_bg_color_light">#ffffff</color>
+
+    <color name="tab_layout_normal_dark">#dcececec</color>
+    <color name="tab_layout_select_dark">#f62e5f</color>
+    <color name="tab_layout_normal_light">#ec3d3d3d</color>
+    <color name="tab_layout_select_light">#f62e5f</color>
+
+    <color name="flow_text_view_bg_blue">#80729bbb</color>
+    <color name="flow_text_view_bg_green">#8059bb74</color>
+    <color name="flow_text_view_bg_grey">#80d2d2d2</color>
+    <color name="flow_text_view_bg_orange">#80ffc77a</color>
+    <color name="flow_text_view_bg_red">#80ff8e8e</color>
+
+</resources>

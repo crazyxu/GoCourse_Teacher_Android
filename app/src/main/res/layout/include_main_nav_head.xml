@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/user_layout"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:background="@drawable/nav_user_bg"
+    android:padding="10dp">
+    <TextView
+        android:id="@+id/tv_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="In a sentence to introduce myself"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:id="@+id/tv_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Name"
+        android:textColor="@android:color/white"
+        android:textSize="18dp"
+        android:layout_above="@id/tv_desc"
+        android:layout_marginBottom="5dp"/>
+    <net.gocourse.ui.CircleImageView
+        android:id="@+id/civ_user_head"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/default_user_head"
+        app:border_color="@color/def_tool_bar_bg_light"
+        app:border_width="2dp"
+        android:layout_above="@id/tv_username"
+        />
+</RelativeLayout>

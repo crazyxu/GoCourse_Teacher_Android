@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.gocourse.function.course.TableFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:background="?attr/defRvBgColor"
+        android:id="@+id/rv_table_fra"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical">
+    </android.support.v7.widget.RecyclerView>
+
+</FrameLayout>

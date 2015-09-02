@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="FlowLayout">
+        <attr name="android:gravity" />
+    </declare-styleable>
+    <declare-styleable name="FlowLayout_Layout">
+        <attr name="android:layout_gravity" />
+    </declare-styleable>
+    <attr name="defBackgroundColor" format="color" />
+    <attr name="defTextColor" format="color" />
+    <attr name="defSmallTextColor" format="color"/>
+    <attr name="defCvBgColor" format="color"/>
+    <attr name="defRvBgColor" format="color"/>
+</resources>

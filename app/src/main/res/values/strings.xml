@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_course_detail">课程详情</string>
+    <string name="title_activity_sign_in_detail">签到详情</string>
+    <string name="title_activity_quiz_detail">测验详情</string>
+    <string name="title_activity_quiz_add">添加测验</string>
+
+    <string name="app_name">GoCourse教师端</string>
+    <string name="action_settings">设置</string>
+    <string name="user_register">注册</string>
+    <string name="nav_table">我的课表</string>
+    <string name="nav_signs">课程签到</string>
+    <string name="nav_tests">随堂测验</string>
+    <string name="nav_comment">课程评论</string>
+    <string name="nav_ware">关于</string>
+    <string name="nav_quit">退出</string>
+    <string name="nav_setting">设置</string>
+    <string name="nav_help">帮助与反馈</string>
+    <string name="title_activity_user">个人中心</string>
+    <string name="open_drawer">drawer_open</string>
+    <string name="close_drawer">drawer_close</string>
+    <string name="title_activity_about">关于</string>
+    <string name="title_activity_login">用户登录</string>
+    <string name="title_activity_table_info">课程信息</string>
+    <string name="str_login">登录</string>
+    <string name="str_register">注册</string>
+    <string name="nav_theme">切换主题</string>
+    <string name="quiz_option_num">添加测验默认选项数量</string>
+    <string name="quiz_detail">测验详情</string>
+    <string name="welcome_app_name">GoCourse教学（教师端）</string>
+    <string name="welcome_app_description">互动 效率 提升 科学</string>
+    <string name="welcome_login_user_hint">教职工号或邮箱</string>
+    <string name="welcome_login_pwd_hint">登录密码</string>
+    <string name="welcome_login_forget_pwd">忘记密码？</string>
+    <string name="title_activity_get_pwd">重置密码</string>
+    <string name="open_by_browser">本地浏览器打开</string>
+    <string name="menu_item_add_course">添加课程</string>
+    <string name="menu_item_refresh_course">刷新课表</string>
+    <string name="user_alter_des">简介内容建议在20个字符以下</string>
+    <string name="title_activity_settings">设置</string>
+</resources>

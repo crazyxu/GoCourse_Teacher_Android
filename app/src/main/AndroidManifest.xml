@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.gocourse.teacher" >
+
+    <!-- ###################声明SDK使用的相关权限###################### -->
+    <!-- 检测网络状态 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 获取mac地址作为用户的备用唯一标识 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 缓存资源优先存入SdCard -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- 允许应用程序联网，以便向我们的服务器端发送数据。 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".WelcomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Base.Light" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.Base.Light" />
+        <activity
+            android:name="net.gocourse.function.user.UserActivity"
+            android:label="@string/title_activity_user"
+            android:theme="@style/AppTheme.Base.Light" />
+        <activity
+            android:name=".AboutActivity"
+            android:label="@string/title_activity_about"
+            android:theme="@style/AppTheme.Base.Light" />
+        <activity
+            android:name="net.gocourse.function.course.CourseDetailActivity"
+            android:label="@string/title_activity_course_detail"
+            android:theme="@style/AppTheme.Base.Light" >
+        </activity>
+        <activity
+            android:name="net.gocourse.function.signIn.SignInDetailActivity"
+            android:label="@string/title_activity_sign_in_detail"
+            android:theme="@style/AppTheme.Base.Light" >
+        </activity>
+        <activity
+            android:name="net.gocourse.function.quiz.QuizDetailActivity"
+            android:label="@string/title_activity_quiz_detail"
+            android:theme="@style/AppTheme.Base.Light" >
+        </activity>
+        <activity
+            android:name="net.gocourse.function.quiz.QuizAddActivity"
+            android:label="@string/title_activity_quiz_add"
+            android:theme="@style/AppTheme.Base.Light" >
+        </activity>
+        <activity
+            android:name=".SettingActivity"
+            android:label="@string/title_activity_settings"
+            android:theme="@style/AppTheme.Base.Light" >
+        </activity>
+        <activity android:name="net.gocourse.ui.WebViewActivity"
+            android:theme="@style/AppTheme.Base.Light"
+            >
+        </activity>
+    </application>
+
+</manifest>

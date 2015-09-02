@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="me.xucan.ui.WebViewActivity">
+    <item android:id="@+id/action_sort"
+        android:title="快捷方式"
+        app:showAsAction="always"
+        android:icon="@drawable/abc_ic_menu_moreoverflow_mtrl_alpha">
+        <menu>
+            <item android:id="@+id/action_open_browser"
+                android:title="@string/open_by_browser"
+                android:orderInCategory="0"
+                app:showAsAction="ifRoom|withText"
+                android:icon="@drawable/menu_browser_icon"/>
+            <item android:id="@+id/action_clear_cache"
+                android:title="清除缓存"
+                android:orderInCategory="1"
+                app:showAsAction="ifRoom|withText"
+                android:icon="@drawable/menu_clear_cache_icon"/>
+            <item android:id="@+id/action_reload"
+                android:title="重新加载"
+                android:orderInCategory="2"
+                app:showAsAction="ifRoom|withText"
+                android:icon="@drawable/menu_reload_icon"/>
+        </menu>
+    </item>
+</menu>

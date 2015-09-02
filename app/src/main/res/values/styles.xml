@@ -1,0 +1,43 @@
+<resources>
+
+    <!--夜间模式-->
+    <style name="AppTheme.Base.dark" parent="Theme.AppCompat.NoActionBar">
+        <!--不需要ActionBar-->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+
+        <item name="popupTheme">@style/PopupTheme.Dark</item>
+        <item name="colorPrimary">@color/def_tool_bar_bg_dark</item>
+        <item name="colorPrimaryDark">@color/def_tool_bar_bg_dark</item>
+        <item name="colorAccent">@android:color/holo_blue_light</item>
+
+        <item name="defBackgroundColor">@android:color/background_dark</item>
+        <item name="defTextColor">@color/def_text_color_dark</item>
+        <item name="defSmallTextColor">@color/def_small_text_color_dark</item>
+        <item name="defRvBgColor">@color/def_rv_bg_color_dark</item>
+        <item name="defCvBgColor">@color/def_cv_bg_color_dark</item>
+    </style>
+
+
+<!--日渐模式-->
+<style name="AppTheme.Base.Light" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowActionBar">false</item>
+
+    <item name="popupTheme">@style/PopupTheme.Light</item>
+    <item name="colorPrimary">@color/def_tool_bar_bg_light</item>
+    <item name="colorAccent">@android:color/holo_blue_light</item>
+    <item name="colorPrimaryDark">@color/def_tool_bar_bg_light</item>
+
+    <item name="defBackgroundColor">@android:color/background_light</item>
+    <item name="defTextColor">@color/def_text_color_light</item>
+    <item name="defSmallTextColor">@color/def_small_text_color_light</item>
+    <item name="defRvBgColor">@color/def_rv_bg_color_light</item>
+    <item name="defCvBgColor">@color/def_cv_bg_color_light</item>
+</style>
+
+<!--PopupTheme-->
+<style name="PopupTheme.Light" parent="ThemeOverlay.AppCompat.Light"></style>
+<style name="PopupTheme.Dark" parent="ThemeOverlay.AppCompat.Dark"></style>
+
+</resources>

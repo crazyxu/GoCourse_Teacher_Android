@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/nav_course"
+            android:checkable="true"
+            android:icon="@drawable/nav_home"
+            android:title="@string/nav_table" />
+        <item
+            android:id="@+id/nav_signs"
+            android:checkable="true"
+            android:icon="@drawable/nav_sign_in"
+            android:title="@string/nav_signs" />
+        <item
+            android:id="@+id/nav_tests"
+            android:checkable="true"
+            android:icon="@drawable/nav_test"
+            android:title="@string/nav_tests" />
+        <item
+            android:id="@+id/nav_comment"
+            android:checkable="true"
+            android:icon="@drawable/nav_comment"
+            android:title="@string/nav_comment" />
+    </group>
+
+    <item
+        android:title="系统">
+        <menu>
+            <item
+                android:id="@+id/nav_theme"
+                android:checkable="true"
+                android:icon="@drawable/nav_theme"
+                android:title="@string/nav_theme" />
+            <item
+                android:id="@+id/nav_setting"
+                android:checkable="true"
+                android:icon="@drawable/nav_setting"
+                android:title="@string/nav_setting" />
+        </menu>
+    </item>
+
+</menu>

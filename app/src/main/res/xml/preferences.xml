@@ -1,0 +1,45 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="测验">
+        <ListPreference
+            android:key="pref_quiz_option_num"
+            android:title="@string/quiz_option_num"
+            android:entries="@array/setting_quiz_option_num_title"
+            android:entryValues="@array/setting_quiz_option_num_value"
+            android:defaultValue="4"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="账户">
+        <Preference
+            android:title="邮箱"
+            android:key="pref_alter_email">
+        </Preference>
+        <Preference
+            android:title="修改密码"
+            android:key="pref_alter_pwd">
+        </Preference>
+        <Preference
+            android:title="注销账号"
+            android:key="pref_logout">
+        </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="使用">
+        <Preference
+            android:title="检查更新"
+            android:key="pref_app_update">
+        </Preference>
+        <Preference
+            android:title="使用帮助"
+            android:key="pref_user_help">
+        </Preference>
+        <Preference
+            android:title="关于"
+            android:key="pref_app_about">
+        </Preference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

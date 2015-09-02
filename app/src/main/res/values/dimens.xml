@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- shadow的高度和宽度 -->
+    <dimen name="shadow_width">20dp</dimen>
+    <dimen name="slidingmenu_offset">150dp</dimen>
+    <dimen name="slimenu_right_offset">120dp</dimen>
+    <!--  -->
+    <dimen name="button_height">45dp</dimen>
+    <!--Course滑动条宽度-->
+    <dimen name="cursor_height">3dp</dimen>
+    <!--Course滑动标题宽度-->
+    <dimen name="tab_height">35dp</dimen>
+</resources>
