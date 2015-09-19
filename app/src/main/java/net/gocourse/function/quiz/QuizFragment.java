@@ -115,7 +115,7 @@ public class QuizFragment extends Fragment {
                 ActivityUtil.goNextActivity(context,QuizAddActivity.class,null,false);
             }
         });
-        FloatingActionButton.Behavior behavior=new FloatingActionButton.Behavior();
+        //FloatingActionButton.Behavior behavior=new FloatingActionButton.Behavior();
         //测验列表
         rvQuiz = (RecyclerView)rootView.findViewById(R.id.rv_quiz);
 
